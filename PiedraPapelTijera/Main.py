@@ -1,3 +1,7 @@
-from Funciones import jugar
+from Funciones import Funciones
 
-print(jugar())
+funciones = Funciones()
+
+class Main:
+
+    print(Funciones.jugar())
