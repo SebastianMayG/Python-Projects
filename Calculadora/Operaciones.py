@@ -1,14 +1,16 @@
-def Suma(a , b):
-    return a + b
+class Operaciones:
 
-def Resta(a , b):
-    return a - b
+    def Suma(a , b):
+        return a + b
 
-def Multiplicacion(a , b):
-    return a * b
+    def Resta(a , b):
+        return a - b
 
-def Division(a , b):
-    return a / b
+    def Multiplicacion(a , b):
+        return a * b
 
-def Potencia(a , b):
-    return a ** b
+    def Division(a , b):
+        return a / b
+
+    def Potencia(a , b):
+        return a ** b
